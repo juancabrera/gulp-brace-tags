@@ -1,0 +1,37 @@
+{
+  "name": "gulp-brace-tags",
+  "version": "0.0.1",
+  "description": "Brace Tags plugin for Gulp",
+  "main": "index.js",
+  "dependencies": {
+    "map-stream": "~0.1.0",
+    "through2": "~1.0.0",
+    "gulp-util": "~3.0.0"
+  },
+  "devDependencies": {
+    "jshint": "~2.5.4",
+    "mocha": "~1.21.4",
+    "should": "~4.0.4",
+    "gulp-mocha": "~1.0.0",
+    "gulp": "~3.8.7"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec && jshint ./*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/juancabrera/gulp-brace-tags"
+  },
+  "keywords": [
+    "gulpplugin",
+    "gulp-brace-tags"
+  ],
+  "author": "Juan Cabrera <juan.acc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/juancabrera/gulp-brace-tags/issues"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  }
+}
