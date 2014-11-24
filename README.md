@@ -1,6 +1,6 @@
 Gulp Brace Tags
 ===============
-Brace Tags Gulp plugin (wrapper for command line brace-tags).
+[Brace Tags](http://tags.brace.io/) Gulp plugin (wrapper for command line brace-tags).
 
 Install
 -------
