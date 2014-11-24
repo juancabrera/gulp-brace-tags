@@ -1,8 +1,9 @@
 {
   "name": "gulp-brace-tags",
   "version": "0.0.1",
-  "description": "Brace Tags plugin for Gulp",
+  "description": "Brace Tags Gulp plugin (wrapper for command line brace-tags).",
   "main": "index.js",
+  "license": "MIT",
   "dependencies": {
     "map-stream": "~0.1.0",
     "through2": "~1.0.0",
@@ -24,7 +25,10 @@
   },
   "keywords": [
     "gulpplugin",
-    "gulp-brace-tags"
+    "gulp-brace-tags", 
+    "brace tags", 
+    "brace-tags", 
+    "tags"
   ],
   "author": "Juan Cabrera <juan.acc@gmail.com>",
   "license": "MIT",

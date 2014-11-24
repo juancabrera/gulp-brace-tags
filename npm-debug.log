@@ -1,0 +1,121 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'publish', './' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.32
+4 verbose publish [ './' ]
+5 verbose cache add [ './', null ]
+6 verbose cache add name=undefined spec="./" args=["./",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: './',
+7 verbose parsed url   path: './',
+7 verbose parsed url   href: './' }
+8 silly lockFile 0ee6c175- ./
+9 verbose lock ./ /Users/cabrera/.npm/0ee6c175-.lock
+10 verbose tar pack [ '/Users/cabrera/.npm/gulp-brace-tags/0.0.1/package.tgz',
+10 verbose tar pack   './' ]
+11 verbose tarball /Users/cabrera/.npm/gulp-brace-tags/0.0.1/package.tgz
+12 verbose folder ./
+13 info prepublish gulp-brace-tags@0.0.1
+14 silly lockFile 04cb2bca-tar tar://./
+15 verbose lock tar://./ /Users/cabrera/.npm/04cb2bca-tar.lock
+16 silly lockFile a48f4a9d-ulp-brace-tags-0-0-1-package-tgz tar:///Users/cabrera/.npm/gulp-brace-tags/0.0.1/package.tgz
+17 verbose lock tar:///Users/cabrera/.npm/gulp-brace-tags/0.0.1/package.tgz /Users/cabrera/.npm/a48f4a9d-ulp-brace-tags-0-0-1-package-tgz.lock
+18 silly lockFile 04cb2bca-tar tar://./
+19 silly lockFile 04cb2bca-tar tar://./
+20 silly lockFile a48f4a9d-ulp-brace-tags-0-0-1-package-tgz tar:///Users/cabrera/.npm/gulp-brace-tags/0.0.1/package.tgz
+21 silly lockFile a48f4a9d-ulp-brace-tags-0-0-1-package-tgz tar:///Users/cabrera/.npm/gulp-brace-tags/0.0.1/package.tgz
+22 silly lockFile 6e3187b6-pm-gulp-brace-tags-0-0-1-package /Users/cabrera/.npm/gulp-brace-tags/0.0.1/package
+23 verbose lock /Users/cabrera/.npm/gulp-brace-tags/0.0.1/package /Users/cabrera/.npm/6e3187b6-pm-gulp-brace-tags-0-0-1-package.lock
+24 silly lockFile 6e3187b6-pm-gulp-brace-tags-0-0-1-package /Users/cabrera/.npm/gulp-brace-tags/0.0.1/package
+25 silly lockFile 6e3187b6-pm-gulp-brace-tags-0-0-1-package /Users/cabrera/.npm/gulp-brace-tags/0.0.1/package
+26 silly lockFile 0ee6c175- ./
+27 silly lockFile 0ee6c175- ./
+28 silly publish { name: 'gulp-brace-tags',
+28 silly publish   version: '0.0.1',
+28 silly publish   description: 'Brace Tags Gulp plugin (wrapper for command line brace-tags).',
+28 silly publish   main: 'index.js',
+28 silly publish   license: 'MIT',
+28 silly publish   dependencies:
+28 silly publish    { 'map-stream': '~0.1.0',
+28 silly publish      through2: '~1.0.0',
+28 silly publish      'gulp-util': '~3.0.0' },
+28 silly publish   devDependencies:
+28 silly publish    { jshint: '~2.5.4',
+28 silly publish      mocha: '~1.21.4',
+28 silly publish      should: '~4.0.4',
+28 silly publish      'gulp-mocha': '~1.0.0',
+28 silly publish      gulp: '~3.8.7' },
+28 silly publish   scripts: { test: 'mocha --reporter spec && jshint ./*.js' },
+28 silly publish   repository:
+28 silly publish    { type: 'git',
+28 silly publish      url: 'git://github.com/juancabrera/gulp-brace-tags' },
+28 silly publish   keywords:
+28 silly publish    [ 'gulpplugin',
+28 silly publish      'gulp-brace-tags',
+28 silly publish      'brace tags',
+28 silly publish      'brace-tags',
+28 silly publish      'tags' ],
+28 silly publish   author: { name: 'Juan Cabrera', email: 'juan.acc@gmail.com' },
+28 silly publish   bugs: { url: 'https://github.com/juancabrera/gulp-brace-tags/issues' },
+28 silly publish   engines: { node: '>=0.10.0' },
+28 silly publish   readme: 'Gulp Brace Tags\n===============\nBrace Tags Gulp plugin (wrapper for command line brace-tags).\n\nInstall\n-------\nMake sure you have installed brace-tags\n```\nsudo easy_install brace-tags\n```\nInstall the plugin\n```\nnpm install gulp-brace-tags --save-dev\n```\n\nUsage\n-----\n```javascript\nvar braceTags = require(\'gulp-brace-tags\');\n\ngulp.task(\'braceTags\',function() {\n  gulp.src("./source/styleguide/html/")\n    .pipe(braceTags(\'/usr/local/bin/tags\', {\n      out     : \'./dist/styleguide/\',\n      debug   : false\n    }))\n});\n```',
+28 silly publish   readmeFilename: 'README.md',
+28 silly publish   gitHead: 'd733ca1a0f1f560e7fda671d9c02b7971b678242',
+28 silly publish   homepage: 'https://github.com/juancabrera/gulp-brace-tags',
+28 silly publish   _id: 'gulp-brace-tags@0.0.1',
+28 silly publish   _shasum: '8db11e7b78b8fc198e62f9c12328312f2ff70fde',
+28 silly publish   _from: './' }
+29 verbose request where is /gulp-brace-tags
+30 verbose request registry https://registry.npmjs.org/
+31 verbose request id f23bd8736dd39ca7
+32 verbose url raw /gulp-brace-tags
+33 verbose url resolving [ 'https://registry.npmjs.org/', './gulp-brace-tags' ]
+34 verbose url resolved https://registry.npmjs.org/gulp-brace-tags
+35 verbose request where is https://registry.npmjs.org/gulp-brace-tags
+36 info trying registry request attempt 1 at 16:22:51
+37 http PUT https://registry.npmjs.org/gulp-brace-tags
+38 http 403 https://registry.npmjs.org/gulp-brace-tags
+39 verbose headers { date: 'Mon, 24 Nov 2014 21:22:51 GMT',
+39 verbose headers   server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+39 verbose headers   'content-type': 'application/json',
+39 verbose headers   'cache-control': 'max-age=60',
+39 verbose headers   'content-length': '3599',
+39 verbose headers   'accept-ranges': 'bytes',
+39 verbose headers   via: '1.1 varnish',
+39 verbose headers   'x-served-by': 'cache-atl6233-ATL',
+39 verbose headers   'x-cache': 'MISS',
+39 verbose headers   'x-cache-hits': '0',
+39 verbose headers   'x-timer': 'S1416864171.579101,VS0,VE290',
+39 verbose headers   'keep-alive': 'timeout=10, max=50',
+39 verbose headers   connection: 'Keep-Alive' }
+40 error publish Failed PUT 403
+41 error Error: forbidden cannot modify pre-existing version: 0.0.1
+41 error old={"name":"gulp-brace-tags","version":"0.0.1","description":"Brace Tags Gulp plugin (wrapper for command line brace-tags).","main":"index.js","license":"MIT","dependencies":{"map-stream":"~0.1.0","through2":"~1.0.0","gulp-util":"~3.0.0"},"devDependencies":{"jshint":"~2.5.4","mocha":"~1.21.4","should":"~4.0.4","gulp-mocha":"~1.0.0","gulp":"~3.8.7"},"scripts":{"test":"mocha --reporter spec && jshint ./*.js"},"repository":{"type":"git","url":"git://github.com/juancabrera/gulp-brace-tags"},"keywords":["gulpplugin","gulp-brace-tags","brace tags","brace-tags","tags"],"author":{"name":"Juan Cabrera","email":"juan.acc@gmail.com"},"bugs":{"url":"https://github.com/juancabrera/gulp-brace-tags/issues"},"engines":{"node":">=0.10.0"},"gitHead":"d733ca1a0f1f560e7fda671d9c02b7971b678242","homepage":"https://github.com/juancabrera/gulp-brace-tags","_id":"gulp-brace-tags@0.0.1","_shasum":"2de3648f4ed425bf182681b4a8b1031a11ef2a22","_from":"./","_npmVersion":"1.4.28","_npmUser":{"name":"cabrera","email":"juan.acc@gmail.com"},"maintainers":[{"name":"cabrera","email":"juan.acc@gmail.com"}],"dist":{"shasum":"2de3648f4ed425bf182681b4a8b1031a11ef2a22","tarball":"http://registry.npmjs.org/gulp-brace-tags/-/gulp-brace-tags-0.0.1.tgz"}}
+41 error new={"name":"gulp-brace-tags","version":"0.0.1","description":"Brace Tags Gulp plugin (wrapper for command line brace-tags).","main":"index.js","license":"MIT","dependencies":{"map-stream":"~0.1.0","through2":"~1.0.0","gulp-util":"~3.0.0"},"devDependencies":{"jshint":"~2.5.4","mocha":"~1.21.4","should":"~4.0.4","gulp-mocha":"~1.0.0","gulp":"~3.8.7"},"scripts":{"test":"mocha --reporter spec && jshint ./*.js"},"repository":{"type":"git","url":"git://github.com/juancabrera/gulp-brace-tags"},"keywords":["gulpplugin","gulp-brace-tags","brace tags","brace-tags","tags"],"author":{"name":"Juan Cabrera","email":"juan.acc@gmail.com"},"bugs":{"url":"https://github.com/juancabrera/gulp-brace-tags/issues"},"engines":{"node":">=0.10.0"},"readme":"Gulp Brace Tags\u000a===============\u000aBrace Tags Gulp plugin (wrapper for command line brace-tags).\u000a\u000aInstall\u000a-------\u000aMake sure you have installed brace-tags\u000a```\u000asudo easy_install brace-tags\u000a```\u000aInstall the plugin\u000a```\u000anpm install gulp-brace-tags --save-dev\u000a```\u000a\u000aUsage\u000a-----\u000a```javascript\u000avar braceTags = require('gulp-brace-tags');\u000a\u000agulp.task('braceTags',function() {\u000a  gulp.src(\"./source/styleguide/html/\")\u000a    .pipe(braceTags('/usr/local/bin/tags', {\u000a      out     : './dist/styleguide/',\u000a      debug   : false\u000a    }))\u000a});\u000a```","readmeFilename":"README.md","gitHead":"d733ca1a0f1f560e7fda671d9c02b7971b678242","homepage":"https://github.com/juancabrera/gulp-brace-tags","_id":"gulp-brace-tags@0.0.1","_shasum":"8db11e7b78b8fc198e62f9c12328312f2ff70fde","_from":"./","_npmVersion":"1.4.28","_npmUser":{"name":"cabrera","email":"juan.acc@gmail.com"},"maintainers":[{"name":"cabrera","email":"juan.acc@gmail.com"}],"dist":{"shasum":"8db11e7b78b8fc198e62f9c12328312f2ff70fde","tarball":"http://registry.npmjs.org/gulp-brace-tags/-/gulp-brace-tags-0.0.1.tgz"}}: gulp-brace-tags
+41 error     at RegClient.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:308:14)
+41 error     at Request._callback (/usr/local/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:246:65)
+41 error     at Request.self.callback (/usr/local/lib/node_modules/npm/node_modules/request/request.js:236:22)
+41 error     at Request.emit (events.js:98:17)
+41 error     at Request.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1142:14)
+41 error     at Request.emit (events.js:117:20)
+41 error     at IncomingMessage.<anonymous> (/usr/local/lib/node_modules/npm/node_modules/request/request.js:1096:12)
+41 error     at IncomingMessage.emit (events.js:117:20)
+41 error     at _stream_readable.js:943:16
+41 error     at process._tickCallback (node.js:419:13)
+42 error If you need help, you may report this *entire* log,
+42 error including the npm and node versions, at:
+42 error     <http://github.com/npm/npm/issues>
+43 error System Darwin 14.0.0
+44 error command "node" "/usr/local/bin/npm" "publish" "./"
+45 error cwd /Users/cabrera/htdocs/juan/gulp-brace-tags
+46 error node -v v0.10.32
+47 error npm -v 1.4.28
+48 verbose exit [ 1, true ]

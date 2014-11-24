@@ -1,23 +1,21 @@
 Gulp Brace Tags
 ===============
+Brace Tags Gulp plugin (wrapper for command line brace-tags).
 
-Usage
------
-Install Brace Tags
+Install
+-------
+Make sure you have installed brace-tags
 ```
 sudo easy_install brace-tags
 ```
-
-Add the package to your package.json
-```javascript
-"devDependencies": {
-  "gulp-brace-tags": "git+ssh://git@github.com:juancabrera/gulp-brace-tags.git"
-}
+Install the plugin
+```
+npm install gulp-brace-tags --save-dev
 ```
 
-Add it to your gulpfile.js
+Usage
+-----
 ```javascript
-// Please note that the source and output should be folders, not individual files.
 var braceTags = require('gulp-brace-tags');
 
 gulp.task('braceTags',function() {
