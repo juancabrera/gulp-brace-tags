@@ -1,6 +1,6 @@
 {
   "name": "gulp-brace-tags",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Brace Tags Gulp plugin (wrapper for command line brace-tags).",
   "main": "index.js",
   "license": "MIT",

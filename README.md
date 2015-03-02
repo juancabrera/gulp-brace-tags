@@ -3,7 +3,7 @@ Gulp Brace Tags
 [Brace Tags](http://tags.brace.io/) Gulp plugin (wrapper for command line brace-tags).
 
 
-# Note: Not being maintained as [Brace is gone](http://blog.brace.io/2015/01/26/goodbye/)
+# Note: Not being maintained as [Brace is gone](http://blog.brace.io/2015/01/26/goodbye/).
 
 
 Install
